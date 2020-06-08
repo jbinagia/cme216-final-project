@@ -1,0 +1,16 @@
+         1547853 function calls (1541587 primitive calls) in 4.835 seconds
+
+   Ordered by: cumulative time
+   List reduced from 422 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.835    4.835 {built-in method builtins.exec}
+        1    0.004    0.004    4.835    4.835 <string>:1(<module>)
+        1    0.561    0.561    4.831    4.831 <ipython-input-10-bbbde87191db>:1(training)
+    80000    0.137    0.000    2.948    0.000 <ipython-input-6-08b67f2a2a6d>:50(update_kinematics)
+    80000    0.882    0.000    1.649    0.000 <ipython-input-6-08b67f2a2a6d>:141(calc_velocity)
+    80002    0.767    0.000    0.767    0.000 <ipython-input-7-c46019e8ea7c>:2(tgv)
+    80000    0.740    0.000    0.740    0.000 <ipython-input-6-08b67f2a2a6d>:118(update_orientation)
+    79927    0.039    0.000    0.599    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+    39904    0.031    0.000    0.435    0.000 <__array_function__ internals>:2(amax)
+    80000    0.273    0.000    0.421    0.000 <ipython-input-6-08b67f2a2a6d>:103(update_position)
